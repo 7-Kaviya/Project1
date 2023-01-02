@@ -1,0 +1,11 @@
+file=input("enter the file name:")
+print("1=.py\n2=.c\n3=.cpp\n4=.java")
+extension=int(input("enter the number of extension:"))
+if(extension==1):
+    print("The extension of the file is :'python'")
+elif(extension==2):
+    print("The extension of the file is :'C'")
+elif(entension==3):
+    print("The extension of the file is :'C++'")
+else:
+    print("The extension of the file is :'java'")
